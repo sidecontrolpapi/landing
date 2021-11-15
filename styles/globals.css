@@ -61,7 +61,7 @@ main {
 
 main > * {
   grid-column: 3 /span 3;
-  font-size: 2vh;
+  font-size: 1rem
  
 }
 
