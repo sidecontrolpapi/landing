@@ -1,23 +1,30 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import { Component, useEffect, useLayoutEffect, useRef } from 'react'
+import Hello from '../components/Hello'
+import Navbar from '../components/Navbar'
 
-export default function Home() {
+class Home extends Component {
+ 
+render() {
+  
+    
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Adiazx14</title>
+    <div >
+      <Head >
+        <title>Adrián Valdés Díaz</title>
         <meta name="description" content="Adrian Valdes Diaz is a self-taught Full-Stack Developer" />
+        <meta name="keywords" content="Computer Science, Web Development, Freelancing"/>
+        
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar/>
+      <Hello/>
 
-      <main >
-        
-      </main>
-
-      <footer >
-       
-      </footer>
     </div>
   )
 }
+}
+
+export default Home
