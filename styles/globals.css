@@ -26,6 +26,7 @@ a {
   margin: 0;
   padding: 0;
   color: #fff;
+  font-size: 1.2rem;
 }
 
 
@@ -40,7 +41,7 @@ a {
 #Welcome {
   display: grid;
  grid-template-rows: 1fr 1fr;
-max-height: 95vh;
+height: 95.5vh;
  
 
 }
@@ -48,10 +49,12 @@ header {
 
 align-self: center;
 }
-header h1 {
-  font-size: 20vw;
-  margin-left: 6vw;
+
+#Hello, #Hello span {
+  font-size: 24rem;
+  margin-left: 4vw;
 }
+ 
 
 main {
  display: grid;
@@ -61,7 +64,7 @@ main {
 
 main > * {
   grid-column: 3 /span 3;
-  font-size: 1rem
+  
  
 }
 
