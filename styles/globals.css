@@ -29,7 +29,11 @@ a {
   font-size: 1.2rem;
 }
 
-
+.flex-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .red {
   color: #ec0544
 }
@@ -51,7 +55,7 @@ align-self: center;
 }
 
 #Hello, #Hello span {
-  font-size: 24rem;
+  font-size: 21rem;
   margin-left: 4vw;
 }
  
@@ -59,22 +63,17 @@ align-self: center;
 main {
  display: grid;
  grid-template-columns: repeat(6,1fr);
- grid-template-rows: repeat(7, 1fr);
+
 }
 
-main > * {
+main > .flex-div {
   grid-column: 3 /span 3;
-  
+  padding-bottom: 1vh;
  
 }
 
-main > :nth-child(3) {
-  grid-row: 3 /span 2;
-}
 
-main > :last-child {
-  grid-row: 6;
-}
+
 nav {
   background-color: #fff;
   position: sticky;

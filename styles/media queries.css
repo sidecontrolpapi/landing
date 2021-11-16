@@ -1,0 +1,33 @@
+@media (max-width:1600px) {
+    #Hello, #Hello span{
+        font-size: 18rem;
+    }
+}
+
+@media (max-width:1440px) {
+    #Hello,#Hello span {
+        
+        font-size: 16rem;
+    }
+    #Hello {
+        margin-left: 1vw;
+    }
+
+    * {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:1280px) {
+    #Hello,#Hello span {
+        
+        font-size: 15rem;
+    }
+    #Hello {
+        margin-left: 0;
+    }
+
+    * {
+        font-size: 1rem;
+    }
+}
