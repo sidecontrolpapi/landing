@@ -71,7 +71,14 @@ nav ul {
         font-size: 1.3rem;
       }
 
-
+      .flex-div :nth-child(4) {
+        display: none !important;
+      }
+      .flex-div :nth-child(5) {
+        display: inline-block !important;
+        align-self: flex-start;
+        z-index: 0;
+      }
       
       
  
@@ -138,7 +145,7 @@ ul.nav-active::before {
     top: 0;
     left:-100%;
     background: #fff;
-    
+    z-index: 1;
     transition: 1s;
 }
 
@@ -170,13 +177,10 @@ ul.nav-active::before {
     grid-template-rows: 1fr 0.2fr;
 }
 
-.social {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    align-items: flex-start;
-}
 
-.social > * {
-    flex-basis: 0;
+
+.social:first-child {
+ 
 }
+.social :nth-child(3), .social :nth-child(2) {
+margin-left: 10vw;}

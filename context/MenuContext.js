@@ -10,8 +10,8 @@ const MenuContextProvider = (props)=> {
 
     const handleSelect = (num, url)=> {
         setSelected(num)
-        setSideMenuActive(false)
-        setTimeout(()=>{window.location.href=url}, 1000)
+         setSideMenuActive(false)
+        setTimeout(()=>{window.location.href=url}, 1000) 
 
     }
     

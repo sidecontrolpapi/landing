@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Component, useEffect, useLayoutEffect, useRef } from 'react'
+
+import { Component } from 'react'
 import Hello from '../components/Hello'
 import Navbar from '../components/Navbar'
 import SideMenu from '../components/SideMenu'
