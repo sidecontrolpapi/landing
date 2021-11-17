@@ -1,0 +1,182 @@
+.hamline {
+    background-color: #1f1b1c;
+    height: 3px;
+    width: 23px;    
+    margin: 6px 0;
+    transition: 1.5s;
+
+}
+
+nav ul {
+    align-items: center;
+    justify-content: space-around;
+    transition: all 1s ease-out;
+}
+
+
+
+@media (max-width:650px) {
+
+    nav li:nth-child(3),nav li:nth-child(4),nav li:nth-child(5) {
+        display: none;
+    }
+
+    #Welcome {
+        grid-template-rows: 0.3fr 1fr;
+    }
+
+
+    header {
+        align-self: end;
+    }
+    #Hello, #Hello span {
+        font-size: 6rem;
+    }
+    * {
+        font-size: 1rem;
+    }
+  
+    main  .flex-div {
+        grid-column: 2 /span 5;
+    }
+    nav ul li:first-child {
+        margin: 0;
+        flex-grow: 0;
+       
+        display: block;
+     }
+ 
+     nav ul li:nth-child(2) {
+        
+         flex-grow: 1;
+         margin-right: 8vw;
+         text-align: center;
+         font-weight: bold;
+ 
+      }
+ 
+      #App {
+          position: relative;
+      }
+ 
+      .Navlink {
+         color: #1f1b1c;
+       
+         color: #ec0544;
+        
+      }
+
+      .SideMenu ul {
+        color: #ec0544;
+        font-size: 1.3rem;
+      }
+
+
+      
+      
+ 
+   
+    @media (max-height:640px)
+    {
+        * {
+            font-size: 0.9rem;
+        }
+        nav li{
+                padding: 0.5rem;
+              }
+    }
+
+  
+}
+
+.nav-active {
+    color: #fff;
+}
+
+nav ul::before{
+    background-color: #1f1b1c;
+    content: "";
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    z-index: -1;
+    transition: 1s;
+}
+
+
+
+ul.nav-active::before {
+
+    right: 0;
+    
+}
+
+.ham-active {
+    background-color: #fff;
+  
+}
+
+#line-2.ham-active {
+    opacity: 0;
+}
+
+#line-3.ham-active {
+    transform: rotate(-45deg) translate(5px,-6px);
+}
+
+#line-1.ham-active {
+    transform: rotate(45deg) translate(6px, 7px);
+}
+
+.SideMenu {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:-100%;
+    background: #fff;
+    
+    transition: 1s;
+}
+
+.SideMenu.active {
+    left: 0;
+}
+
+.SideMenu  span{
+    display: inline-block;
+    font-size: 1.8rem;
+    
+}
+
+.SideMenu ul {
+    display: flex;
+    padding-top: 8vh;
+    flex-direction: column;
+    margin-left: 4vw;
+    list-style: none;
+}
+
+.SideMenu ul > * {
+    margin-top: 3vh;
+}
+
+
+.SideMenu {
+    display: grid;
+    grid-template-rows: 1fr 0.2fr;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: flex-start;
+}
+
+.social > * {
+    flex-basis: 0;
+}

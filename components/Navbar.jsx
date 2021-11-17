@@ -1,19 +1,32 @@
-import { useState } from "react"
+import { useContext} from "react"
+import { MenuContext } from "../context/MenuContext"
+import Links from "./Links"
 
 const Navbar = ()=> {
 
-const [isSelected, setIsSelected] = useState(0)
+const {sideMenuActive, setSideMenuActive} = useContext(MenuContext)
 
-const handleSelect = (num) => {
-setIsSelected(num)
+
+const toggleActive = ()=> {
+    if (sideMenuActive) {setSideMenuActive(false);
+        document.body.style.overflow="auto";
+        
+    
+    }
+    else {setSideMenuActive(true); 
+        document.body.style.overflow="hidden";
+        
 }
+}
+
     return(
-        <nav>
-            <ul>
+        <nav >
+            <ul className={sideMenuActive?"nav-active":""}>
+                <li  onClick={()=>{toggleActive()}}>
+                   <div className={`hamline ${sideMenuActive?"ham-active":""}`} id="line-1"></div><div className={`hamline ${sideMenuActive?"ham-active":""}`} id="line-2"></div><div className={`hamline ${sideMenuActive?"ham-active":""}`} id="line-3"></div>
+                </li>
             <li>Adrián Valdés Díaz</li>
-           <li onClick={()=>handleSelect(0)} className={`Navlink ${isSelected==0?"selected":""}`}>About Me</li>
-           <li onClick={()=>handleSelect(1)} className={`Navlink ${isSelected==1?"selected":""}`}>Projects</li>
-           <li onClick={()=>handleSelect(2)} className={`Navlink ${isSelected==2?"selected":""}`}>Contact</li> 
+          <Links/>
             </ul> 
         </nav>
     )
