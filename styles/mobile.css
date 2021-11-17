@@ -22,7 +22,8 @@ nav ul {
     }
 
     #Welcome {
-        grid-template-rows: 0.3fr 1fr;
+        grid-template-rows: 0.25fr 1fr;
+        height: 93vh;
     }
 
 
@@ -38,6 +39,7 @@ nav ul {
   
     main  .flex-div {
         grid-column: 2 /span 5;
+        padding-right: 3vw;
     }
     nav ul li:first-child {
         margin: 0;
@@ -174,9 +176,10 @@ ul.nav-active::before {
 
 .SideMenu {
     display: grid;
-    grid-template-rows: 1fr 0.2fr;
+    grid-template-rows: 1fr 0.3fr;
 }
 
 
 .social :nth-child(3), .social :nth-child(2) {
+    align-self: start;
 margin-left: 10vw;}
