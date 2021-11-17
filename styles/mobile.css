@@ -178,9 +178,5 @@ ul.nav-active::before {
 }
 
 
-
-.social:first-child {
- 
-}
 .social :nth-child(3), .social :nth-child(2) {
 margin-left: 10vw;}

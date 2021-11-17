@@ -10,9 +10,9 @@ const SideMenu = ()=> {
     return(
         <div id="side" className={`SideMenu ${sideMenuActive?"active":""}`}>
             <ul>
-              <span>/*</span>  
+              <span>/&#42;</span>  
                <Links/>
-               <span>*/</span>
+               <span>&#42;/</span>
             </ul>
 
             <div className="social">
