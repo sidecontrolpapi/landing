@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { Component } from 'react'
+import AboutMe from '../components/AboutMe'
 import Hello from '../components/Hello'
 import Navbar from '../components/Navbar'
 import SideMenu from '../components/SideMenu'
@@ -10,13 +11,12 @@ class Home extends Component {
  
 render() {
   
-    
-
+  
   return (
     <div>
       <Head >
         <title>Adrián Valdés Díaz</title>
-        <meta name="description" content="I am a self-taught Full-Stack Developer and future Computer Science Student" />
+        <meta name="description" content="I am a self-taught full-stack developer and future Computer Science student" />
         <meta name="keywords" content="Computer Science, Web Development, Freelancing"/>
         
         <link rel="icon" href="/favicon.ico" />
@@ -26,6 +26,7 @@ render() {
       <div id="App">
       <SideMenu/>
       <Hello/>
+      <AboutMe/>
       </div>
       </MenuContextProvider>
     </div >
