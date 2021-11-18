@@ -16,6 +16,9 @@
     * {
         font-size: 1.1rem;
     }
+    #Welcome {
+        height: 94vh;
+    }    
 }
 
 @media (max-width:1280px) {
@@ -23,7 +26,7 @@
         
         font-size: 14rem;
     }
-                  
+             
     * {
         font-size: 1rem;
     }
@@ -65,3 +68,15 @@
 
 }
 
+@media (max-height:800px) {
+    #Hello, #Hello span {
+        font-size: 13rem;
+    }
+
+
+
+#Welcome {
+    display: grid;
+    grid-template-rows: 0.5fr 0.7fr;
+}
+}

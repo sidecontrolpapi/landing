@@ -16,7 +16,7 @@ render() {
     <div>
       <Head >
         <title>Adrián Valdés Díaz</title>
-        <meta name="description" content="Adrian Valdes Diaz is a self-taught Full-Stack Developer" />
+        <meta name="description" content="I am a self-taught Full-Stack Developer and future Computer Science Student" />
         <meta name="keywords" content="Computer Science, Web Development, Freelancing"/>
         
         <link rel="icon" href="/favicon.ico" />
