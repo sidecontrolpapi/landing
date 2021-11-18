@@ -22,8 +22,8 @@ nav ul {
     }
 
     #Welcome {
-        grid-template-rows: 0.25fr 1fr;
-        height: 93.7vh;
+        grid-template-rows: 0.2fr 0.8fr;
+        height: 92.7vh;
     }
 
 
@@ -85,7 +85,7 @@ nav ul {
       
  
    
-    @media (max-height:640px)
+    @media (max-height:667px)
     {
         * {
             font-size: 0.9rem;
@@ -93,6 +93,12 @@ nav ul {
         nav li{
                 padding: 0.5rem;
               }
+
+              #Welcome {
+                grid-template-rows: 0.22fr 0.8fr;
+               
+            }
+        
     }
 
   
