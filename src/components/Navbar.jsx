@@ -26,7 +26,7 @@ const toggleActive = ()=> {
                    <div className={`hamline ${sideMenuActive?"ham-active":""}`} id="line-1"></div><div className={`hamline ${sideMenuActive?"ham-active":""}`} id="line-2"></div><div className={`hamline ${sideMenuActive?"ham-active":""}`} id="line-3"></div>
                 </li>
             <li>Adrián Valdés Díaz</li>
-          <Links/>
+          <Links mobile={false}/>
             </ul> 
         </nav>
     )

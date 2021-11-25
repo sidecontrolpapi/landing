@@ -42,13 +42,14 @@
   #Welcome {
     display: grid;
    grid-template-rows: 1fr 1fr;
-  height: 95.5vh;
+  height: 100vh;
   color: #fff;
   
   }
   header {
   
   align-self: center;
+  padding-top: 5vh;
   }
   
   #Hello, #Hello span {
@@ -81,13 +82,18 @@
   
   nav {
     background-color: #fff;
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 2;
-    min-height: 4.5vh;
+    width: 100%;
+    z-index: 4;
+    transition: 1s;
+    height: 5vh;
   }
   nav ul {
    display: flex;
+   height: 100%;
+   align-items: center;
+   padding: 0 3vw;
    list-style: none;
    justify-content: flex-end;
    color: #1f1b1c;
@@ -96,11 +102,12 @@
   
   nav li {
     color: inherit;
-    padding: 0.8rem 0.9rem;
+    
     flex-shrink: 0;
   }
   .Navlink {
     transition: 0.45s ease-out;
+    padding-left: 3vw;
   }
   
   .Navlink:hover {
@@ -143,17 +150,90 @@
   }
   
   
-  #AboutMe {
-    color: #1f1b1c;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+ 
+ /* AboutMe */
+ #AboutMe {
+  background-color: #1f1b1c;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+
+  height: 96vh;
+  position: relative;
+}
+
+
+
+#Me {
+ width: 100%;
+ height: 100%;
+ padding-top: 4vh;
+ padding-left: 6vw;
+ padding-right: 4vw;
+  z-index: 2;
+ 
+}
+
+ #AboutMe h1 {
+   font-size: 3.3rem;
+   margin-top: 5vh;
   
- #AboutMe > * {
-    padding: 0 5vw;
  }
 
- #AboutMe img {
-   width: 100%;
-   height: 100%;
+ #summary > *{
+  padding-right: 6vw;
+  padding-bottom: 2vh;
+ }
+
+ #summary {
+   display: flex;
+   padding-left:1vw;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+ #summary :last-child {
+   position: relative;
+   padding-top: 2vh;
+   color: #1f1b1c;
+   z-index: 1;
+ }
+ #summary :last-child::after {
+   content: "";
+   background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  z-index: -1;
+  height: 120%;
+ }
+
+ #MidArrow {
+   width: 4vw;
+   height: 7vh;
+   z-index: 3;
+   left: 8vw;
+   bottom: -4vh;
+   position: absolute;
+
+ }
+
+ /* NavBar Animation */
+
+ nav {
+   
+ }
+
+ .show {
+  animation: disappear 0.8s 3s forwards;
+ }
+
+ @keyframes disappear {
+   from {
+     top:0;
+   }
+   to {
+     top: -7vh;
+   }
  }

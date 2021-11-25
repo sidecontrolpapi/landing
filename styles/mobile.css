@@ -7,6 +7,11 @@
 
 }
 
+nav ul {
+    align-items: center;
+    justify-content: space-around;
+    transition: all 1s ease-out;
+}
 
 
 
@@ -16,12 +21,9 @@
         display: none;
     }
 
-    nav {
-        height: 6vh;
-    }
     #Welcome {
-        grid-template-rows: 0.35fr 1fr;
-   
+        grid-template-rows: 0.2fr 0.8fr;
+        height: 92.7vh;
     }
 
 
@@ -48,19 +50,17 @@
  
      nav ul li:nth-child(2) {
         
-        flex-grow: 1;
-        margin-right: 9vw;
-        text-align: center;
-        font-weight: bold;
+         flex-grow: 1;
+         margin-right: 9vw;
+         text-align: center;
+         font-weight: bold;
+ 
+      }
 
-     }
-
-     nav ul li:nth-child(2) {
-      
-        margin-left: 0px; 
-   }
-
-     
+      nav ul li:nth-child(2) {
+       
+         margin-left: 0px; 
+    }
  
       .Navlink {
          color: #1f1b1c;
@@ -95,7 +95,10 @@
                 padding: 0.5rem;
               }
 
-            
+              #Welcome {
+                grid-template-rows: 0.22fr 0.8fr;
+               
+            }
         
     }
 
@@ -147,15 +150,12 @@ ul.nav-active::before {
 .SideMenu {
     height: 100%;
     width: 100%;
-    position: fixed;
-    margin-top: 5vh;
+    position: absolute;
     top: 0;
     left:-100%;
     background: #fff;
     z-index: 1;
     transition: 1s;
-    display: grid;
-    grid-template-rows: 1fr 0.3fr;
 }
 
 .SideMenu.active {
@@ -181,14 +181,12 @@ ul.nav-active::before {
 }
 
 
+.SideMenu {
+    display: grid;
+    grid-template-rows: 1fr 0.3fr;
+}
+
 
 .social :nth-child(3), .social :nth-child(2) {
     align-self: start;
 margin-left: 10vw;}
-
-
-@media screen and (max-width:300px) {
-    #Hello {
-        font-size: 5rem;
-    }
-}

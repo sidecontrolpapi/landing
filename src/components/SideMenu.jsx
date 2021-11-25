@@ -10,7 +10,7 @@ const SideMenu = ()=> {
         <div id="side" className={`SideMenu ${sideMenuActive?"active":""}`}>
             <ul>
               <span>/&#42;</span>  
-               <Links/>
+               <Links mobile={true}/>
                <span>&#42;/</span>
             </ul>
 
