@@ -1,0 +1,82 @@
+@media (max-width:1600px) {
+    #Hello, #Hello span{
+        font-size: 18rem;
+    }
+}
+
+@media (max-width:1440px) {
+    #Hello,#Hello span {
+        
+        font-size: 16rem;
+    }
+    #Hello {
+        margin-left: 0;
+    }
+
+    * {
+        font-size: 1.1rem;
+    }
+    #Welcome {
+        height: 94vh;
+    }    
+}
+
+@media (max-width:1280px) {
+    #Hello,#Hello span {
+        
+        font-size: 14rem;
+    }
+             
+    * {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:850px) {
+
+    #Welcome {
+        grid-template-rows: 0.5fr 1fr;
+    }
+
+  main  .flex-div {
+        grid-column: 2 /span 5;
+    }
+    #Hello, #Hello span{
+        font-size: 10rem;
+        
+    }
+    * {
+        font-size: 1.1rem;
+    }
+    header {
+        text-align: center;
+    }
+    #Hello span {
+        margin-left: 0;
+    }
+    
+    #ShortArrow {
+        display: none;
+    }
+    #LongArrow {
+        display: block;
+    }
+
+    .flex-div > :nth-child(3) {
+        padding-right: 2vw;
+    }
+
+}
+
+@media (max-height:800px) {
+    #Hello, #Hello span {
+        font-size: 13rem;
+    }
+
+
+
+#Welcome {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+}
+}
