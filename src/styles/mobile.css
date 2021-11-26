@@ -157,7 +157,7 @@ ul.nav-active::before {
     height: 100%;
     width: 100%;
     position: fixed;
-    margin-top: 5vh;
+    margin-top: 6vh;
     top: 0;
     left:-100%;
     background: #fff;

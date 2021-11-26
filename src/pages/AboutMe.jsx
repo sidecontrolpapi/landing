@@ -1,4 +1,5 @@
 import me from "../images/me.webp"
+import mid from "../images/MidArrow.svg"
 
 const AboutMe = ()=> {
     return (
@@ -17,7 +18,7 @@ const AboutMe = ()=> {
 
 
             </div>
-            <img id="MidArrow" src="MidArrow.svg" alt=""/>
+            <img id="MidArrow" src={mid} alt=""/>
         </section>
     )
 }
