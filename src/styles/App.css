@@ -87,7 +87,7 @@
     width: 100%;
     z-index: 4;
     transition: 1s;
-    height: 5vh;
+    height: 4.5vh;
   }
   nav ul {
    display: flex;
@@ -221,19 +221,27 @@
 
  /* NavBar Animation */
 
- nav {
-   
- }
+ 
+.show {
+  animation: show 0.5s forwards;
+}
 
- .show {
-  animation: disappear 0.8s 3s forwards;
- }
+.disappear {
+  animation: disappear 0.5s 4s forwards;
+}
 
- @keyframes disappear {
+/*  @keyframes show{
    from {
-     top:0;
-   }
-   to {
      top: -7vh;
    }
+   to {
+      top:0
+   }
  }
+
+@keyframes disappear {
+  to {
+    top:-7vh
+  }
+} 
+ */

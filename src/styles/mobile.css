@@ -99,7 +99,16 @@
         
     }
 
-  
+  #summary {
+      padding-left: 6vw;
+  }
+
+  #MidArrow {
+      left: 60%;
+      width: 10vw;
+      height: 8vh;
+      bottom: -7vh;
+    }
 }
 
 .nav-active {

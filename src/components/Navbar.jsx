@@ -20,7 +20,7 @@ const toggleActive = ()=> {
 }
 
     return(
-        <nav >
+        <nav>
             <ul className={sideMenuActive?"nav-active":""}>
                 <li  onClick={()=>{toggleActive()}}>
                    <div className={`hamline ${sideMenuActive?"ham-active":""}`} id="line-1"></div><div className={`hamline ${sideMenuActive?"ham-active":""}`} id="line-2"></div><div className={`hamline ${sideMenuActive?"ham-active":""}`} id="line-3"></div>

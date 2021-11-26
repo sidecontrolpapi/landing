@@ -11,10 +11,13 @@ const MenuContextProvider = (props)=> {
     const [scrolled, setScrolled] = useState(0)
 
   const listenToScroll = ()=> {
-    document.querySelector("nav").classList.remove("show")
-     document.querySelector("nav").classList.add("show")
+  /*   const nav = document.querySelector("nav")
+    nav.classList.remove('disappear')
+    nav.classList.add("show")
+    setTimeout(()=>{nav.classList.add("disappear")},5000) 
+     */
      
-     if (window.scrollY>document.getElementById("Welcome").scrollHeight) {setSelected(1);}
+     if (window.scrollY>document.getElementById("Welcome").scrollHeight-100) {setSelected(1);}
      else setSelected(0)
   }
 
