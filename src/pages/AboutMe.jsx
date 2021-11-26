@@ -1,8 +1,9 @@
+import me from "../images/me.webp"
 
 const AboutMe = ()=> {
     return (
         <section id="AboutMe">
-           <img id="Me" src="/me.webp" alt="" />
+           <img id="Me" src={me} alt="" />
             <div id="summary">
                 <h1 className="red">&#47;&#47;About Me</h1>
                 <p>
