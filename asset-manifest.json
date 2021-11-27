@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adiazx14/static/css/main.ca22e8b0.chunk.css",
+    "main.css": "/adiazx14/static/css/main.9e2cf586.chunk.css",
     "main.js": "/adiazx14/static/js/main.0ed0f97d.chunk.js",
     "main.js.map": "/adiazx14/static/js/main.0ed0f97d.chunk.js.map",
     "runtime-main.js": "/adiazx14/static/js/runtime-main.18bb84f7.js",
@@ -10,7 +10,7 @@
     "static/js/3.72f96edf.chunk.js": "/adiazx14/static/js/3.72f96edf.chunk.js",
     "static/js/3.72f96edf.chunk.js.map": "/adiazx14/static/js/3.72f96edf.chunk.js.map",
     "index.html": "/adiazx14/index.html",
-    "static/css/main.ca22e8b0.chunk.css.map": "/adiazx14/static/css/main.ca22e8b0.chunk.css.map",
+    "static/css/main.9e2cf586.chunk.css.map": "/adiazx14/static/css/main.9e2cf586.chunk.css.map",
     "static/js/2.906f6886.chunk.js.LICENSE.txt": "/adiazx14/static/js/2.906f6886.chunk.js.LICENSE.txt",
     "static/media/Github.54b068c7.svg": "/adiazx14/static/media/Github.54b068c7.svg",
     "static/media/LinkedIn.bef81bb7.svg": "/adiazx14/static/media/LinkedIn.bef81bb7.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.18bb84f7.js",
     "static/js/2.906f6886.chunk.js",
-    "static/css/main.ca22e8b0.chunk.css",
+    "static/css/main.9e2cf586.chunk.css",
     "static/js/main.0ed0f97d.chunk.js"
   ]
 }
