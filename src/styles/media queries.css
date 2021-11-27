@@ -17,18 +17,11 @@
         font-size: 1.1rem;
     }
 
-  @media  (max-height:1000px) {
-    #AboutMe h1 {
-        font-size: 3rem;
-        margin-top: 5vh;
-       
-      }
-
-      #summary p{
-        font-size: 0.9rem;
+    #summary p {
+        font-size: 0.94rem;
     }
 
-    }
+  
     
 }
 
@@ -48,9 +41,22 @@
     nav {
         height: 5.5vh;
     }
+    @media  (max-height:1000px) {
+        #AboutMe h1 {
+            font-size: 3rem;
+            margin-top: 5vh;
+           
+          }
     
+          #summary p{
+            font-size: 0.8rem;
+        }
+    
+        }
     
 }
+
+
 
 
 @media (max-width:850px) {
