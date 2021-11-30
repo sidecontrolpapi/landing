@@ -6,6 +6,7 @@ import SideMenu from './components/SideMenu';
 import './styles/App.css'
 import './styles/media queries.css'
 import './styles/mobile.css'
+import Projects from './pages/Projects';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <SideMenu/>
       <Hello/>
       <AboutMe/>
+      <Projects/>
      
       </MenuContextProvider>
     </div>

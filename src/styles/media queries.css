@@ -43,11 +43,13 @@
     }
     @media  (max-height:1000px) {
         #AboutMe h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             margin-top: 5vh;
            
           }
-    
+        #Projects h1 {
+            font-size: 2.5rem;
+        }
           #summary p{
             font-size: 0.8rem;
         }
