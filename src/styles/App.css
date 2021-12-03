@@ -251,9 +251,73 @@
  
  #Projects {
    margin-top: 10vh;
+
  }
 
  #Projects h1 {
    font-size: 3.3rem;
    margin-left: 2vw;
  }
+
+ .ProjectCard {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+   
+   color: #fff;
+   background-color: #1f1b1c;
+   padding-bottom: 4vh;
+ }
+
+ .ImagesDiv {
+   display: grid;
+   grid-template-columns: 1fr 1.2fr;
+   gap: 0.5vw;
+   padding-left: 2VW;
+ }
+
+ .ImagesDiv a {
+  display: flex;
+}
+
+
+
+.ImagesDiv img {
+ 
+width: 100%;
+
+}
+
+#Landscape {
+  height: 65%;
+  align-self: flex-end;
+  }
+
+.TextDiv {
+  margin-top:8vh;
+  display: flex;
+  padding: 0 1vw;
+  flex-direction: column;
+ 
+
+}
+
+  .TextDiv h2 {
+   
+    font-size: 1.5rem;
+    width: 10vw;
+  }
+ 
+.InnerText {
+  align-items: center;
+  padding: 10vw 3vw 0 3vw;
+    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  
+  height: 100%;
+}
+
+.ProjectLink {
+  border: #fff solid 0.3px;
+  padding: 0.4vh 2.3vw 0.4vh 0.8vh
+}

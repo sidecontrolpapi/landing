@@ -4,18 +4,20 @@ const ProjectCard = ({project})=> {
     <div className="ProjectCard">
 
 <div className="ImagesDiv">
-        <a href={project.link}>
-<img src={project.portrait} alt="" />
+        <a target="_blank" rel="noreferrer" href={project.link}>
+<img className="Portrait" src={project.portrait} alt="" />
 </a>
-<a href={project.link}>
-<img src={project.landscape} alt="" />
+<a target="_blank" rel="noreferrer" href={project.link}>
+<img id="Landscape" src={project.landscape} alt="" />
 </a>
 </div>
 
-<div className="TextDivv">
-    <h2 className="red">{project.title}</h2>
-    <p>{project.description}</p>
-    <a href={project.link} className="ProjectLink">See it live &#62;</a>
+<div className="TextDiv">
+    <h2 className="red">&#47;&#47;{project.title}</h2>
+    <div className="InnerText">
+    <p>&quot;{project.description}&quot;</p>
+    <a target="_blank" rel="noreferrer" href={project.link} className="ProjectLink">See it live &#62;</a>
+    </div>
 </div>
 
 </div>
