@@ -2,7 +2,7 @@ import mid from "../images/MidArrow.svg"
 
 const Contact =()=>{
     return(
-        <div className="Contact">
+        <div className="Contact" id="Contact">
 
             <svg className="ContactArr" xmlns="http://www.w3.org/2000/svg" width="959" height="40" viewBox="0 0 959.071 71.757">
                 <g id="Group_3" data-name="Group 3" transform="translate(-844.851 1169.203) rotate(-90)">

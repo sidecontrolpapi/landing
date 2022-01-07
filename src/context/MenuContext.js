@@ -8,17 +8,13 @@ const MenuContextProvider = (props)=> {
     const [sideMenuActive, setSideMenuActive] = useState(false)
     const [selected, setSelected] = useState(0)
 
-    const [scrolled, setScrolled] = useState(0)
 
+ 
   const listenToScroll = ()=> {
-  /*   const nav = document.querySelector("nav")
-    nav.classList.remove('disappear')
-    nav.classList.add("show")
-    setTimeout(()=>{nav.classList.add("disappear")},5000) 
-     */
-     
-     if (window.scrollY>document.getElementById("Welcome").scrollHeight-100) {setSelected(1);}
-     else setSelected(0)
+
+
+      setSelected(Math.round(window.scrollY/window.innerHeight))
+     console.log([window.scrollY/window.innerHeight])
   }
 
   useEffect(()=>{

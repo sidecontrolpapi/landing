@@ -1,17 +1,14 @@
-import linkedin from "../images/LinkedIn.svg"
-import github from "../images/Github.svg"
-import right from "../images/RightArrow.svg"
 
 const Footer = () => {
     return(
         <div className="Footer">
             
             <div className="PersonalInfo">
-                <p>Adrián Valdés Diaz</p>
+                <p>Adrián Valdés Díaz</p>
                 <p href="#">/</p>
-                <a href="#">About Me</a>
-                <a href="#">Proyects</a>
-                <a href="#">Contact</a>
+                <a href="#AboutMe">About Me</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Contact">Contact</a>
             </div>
             
             <div className="Networks">
@@ -47,7 +44,7 @@ const Footer = () => {
                 </h1>
             </div>
         
-            <p className="signature">Adrián Valdés Diaz 2021.</p>
+            <p className="signature">Adrián Valdés Diaz 2021  &copy;</p>
             
         </div>
     )

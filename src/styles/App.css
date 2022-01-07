@@ -159,7 +159,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: #fff;
-  height: 96vh;
+  min-height: 96vh;
   position: relative;
 }
 
