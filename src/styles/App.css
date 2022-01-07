@@ -258,6 +258,7 @@
  .ProjectCard {
   display: grid;
   grid-template-columns: 1fr 0.8fr; 
+  grid-template-areas: "images text";
   color: #fff;
   background-color: #1f1b1c;
   padding-bottom: 10%;
@@ -267,8 +268,10 @@
  .ImagesDiv {
    display: grid;
    grid-template-columns: 1fr 1.2fr;
+   grid-template-areas: "tall short";
+   grid-area: images;
    gap: 0.5vw;
-   padding-left: 2VW;
+   padding-left: 2vw;
    padding-top: 5%;
  }
 
@@ -276,6 +279,29 @@
   display: flex;
 }
 
+.ImagesDiv a:first-child {
+  grid-area: tall;
+}
+.ImagesDiv a:nth-child(2) {
+  grid-area: short;
+}
+
+#Projects .ProjectCard:nth-child(odd)
+{
+  grid-template-columns: 0.8fr 1fr;
+  grid-template-areas: "text images";
+}
+
+#Projects .ProjectCard:nth-child(odd) .ImagesDiv
+{
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-areas: "short tall";
+}
+#Projects .ProjectCard:nth-child(odd) .TextDiv h2
+{
+align-self: end;
+width: initial;
+}
 
 
 .ImagesDiv img {
@@ -294,7 +320,7 @@
   display: flex;
   padding: 0 1vw;
   flex-direction: column;
- 
+ grid-area: text;
 
 }
 
@@ -317,7 +343,7 @@
 .ProjectLink {
   border: #fff solid 0.3px;
   margin-right: 5%;
-  padding: 0.4vh 2.3vw 0.4vh 0.8vh;
+  padding: 0.4vh 6.3vw 0.4vh 1.8vh;
 }
 
 /*Footer*/
@@ -408,4 +434,13 @@
 }
 .ClosingCurly{
   margin: 0% 5% 30% 140%;
+}
+
+.buttons {
+  text-align: center;
+}
+.buttons a:hover {
+  color: #ec0544;
+  transition: 0.6s;
+  border-color: #ec0544;
 }

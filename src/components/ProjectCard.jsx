@@ -19,7 +19,7 @@ const ProjectCard = ({project})=> {
                     
                     <div className="buttons">
                         <a target="_blank" rel="noreferrer" href={project.link} className="ProjectLink">See it live &#62;</a>
-                        <a target="_blank" rel="noreferrer" href={project.link} className="ProjectLink">See it live &#62;</a>
+                       
                     </div>
                     
                 </div>

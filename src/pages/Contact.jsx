@@ -35,7 +35,7 @@ const Contact =()=>{
                     
                     <div className="info">
                         <br/>
-                        <a href="call: +17868657264"><b><p className="red">call: +1 786 865-7264;</p></b></a>
+                        <a href="tel:+17868657264"><b><p className="red">call: +1 786 865-7264;</p></b></a>
 
                         <a href="mailto: adrianvaldes1439@gmail.com"><b><p className="red">mail: adrianvaldes1439@gmail.com;</p></b></a>
                         <br/>
