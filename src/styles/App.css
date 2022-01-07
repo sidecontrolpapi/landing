@@ -45,7 +45,7 @@
   #Welcome {
     display: grid;
    grid-template-rows: 1fr 1fr;
-  height: 100%;
+  height: 100vh;
   color: #fff;
   
   }
@@ -246,7 +246,7 @@
  /*Projects*/
  
  #Projects {
-   margin-top: 18%;
+   margin-top: 10vh;
 
  }
 
