@@ -32,7 +32,10 @@
       justify-content: space-evenly;
   }
   .red {
-    color: #ec0544
+    color: #ec0544;
+  }
+  .white {
+    color: white;
   }
   
   .black {
@@ -42,7 +45,7 @@
   #Welcome {
     display: grid;
    grid-template-rows: 1fr 1fr;
-  height: 100vh;
+  height: 100%;
   color: #fff;
   
   }
@@ -61,7 +64,6 @@
   main {
    display: grid;
    grid-template-columns: repeat(6,1fr);
-  
   }
   
   main > .flex-div {
@@ -152,33 +154,27 @@
   
  
  /* AboutMe */
- #AboutMe {
+#AboutMe {
   background-color: #1f1b1c;
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: #fff;
-
   height: 96vh;
   position: relative;
 }
 
-
-
 #Me {
- width: 100%;
- height: 100%;
- padding-top: 4vh;
- padding-left: 6vw;
- padding-right: 4vw;
+  width: 100%;
+  height: 100%;
+  padding-left: 4vw;
+  padding-right: 3vw;
   z-index: 2;
   max-height: 94vh;
- 
 }
 
  #AboutMe h1 {
    font-size: 3.3rem;
    margin-top: 5vh;
-  
  }
 
  #summary > *{
@@ -250,7 +246,7 @@
  /*Projects*/
  
  #Projects {
-   margin-top: 10vh;
+   margin-top: 18%;
 
  }
 
@@ -261,18 +257,19 @@
 
  .ProjectCard {
   display: grid;
-  grid-template-columns: 1fr 0.8fr;
-   
-   color: #fff;
-   background-color: #1f1b1c;
-   padding-bottom: 4vh;
- }
+  grid-template-columns: 1fr 0.8fr; 
+  color: #fff;
+  background-color: #1f1b1c;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
 
  .ImagesDiv {
    display: grid;
    grid-template-columns: 1fr 1.2fr;
    gap: 0.5vw;
    padding-left: 2VW;
+   padding-top: 5%;
  }
 
  .ImagesDiv a {
@@ -282,8 +279,8 @@
 
 
 .ImagesDiv img {
- 
-width: 100%;
+
+  width: 100%;
 
 }
 
@@ -302,22 +299,113 @@ width: 100%;
 }
 
   .TextDiv h2 {
-   
     font-size: 1.5rem;
-    width: 10vw;
+    width: 70%;
   }
  
 .InnerText {
-  align-items: center;
   padding: 10vw 3vw 0 3vw;
-    justify-content: space-between;
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
-  
   height: 100%;
+}
+.InnerText p{
+  margin-bottom: 5%;
 }
 
 .ProjectLink {
   border: #fff solid 0.3px;
-  padding: 0.4vh 2.3vw 0.4vh 0.8vh
+  margin-right: 5%;
+  padding: 0.4vh 2.3vw 0.4vh 0.8vh;
+}
+
+/*Footer*/
+.Footer{
+  background-color: black;
+}
+.Footer a,p{
+  color: white;
+}
+.PersonalInfo{
+  padding: 2% 0 2% 7%;
+  display: flex;
+  flex-direction: column;
+}
+.PersonalInfo a,p{
+  padding-bottom: 0.3%;
+  font-size: 16px;
+}
+.Bye{
+  margin-top: -20%;
+  padding-left: 37%;
+  margin-bottom: -1%;
+}
+.Networks {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+.RightArr{
+  width: 6rem;
+  margin-left: -8%;
+  margin-top: -4%;
+}
+.linkNet{
+  width: 95%;
+  margin-left: 15%;
+}
+.signature{
+  padding-bottom: 2%;
+  padding-left: 7%;
+  font-size: 13px;
+}
+.Networks a:last-of-type{
+  margin-left: 5%;
+  margin-top: 1.5%;
+}
+
+/*Contact*/
+.Contact h1{
+  font-size: 3rem;
+}
+.Contact{
+  display: flex;
+  margin-top: 4%;
+}
+.ContactArr{
+  width: 17%;
+  margin-top: 5%;
+}
+.CenterContact{
+  margin-top: 4%;
+  margin-left: 2%;
+  display: flex;
+}
+.RightContact{
+  margin-top: 9%;
+  margin-left: 8%;
+}
+.blackFont{
+  color: black;
+}
+.variable{
+  display: flex;
+}
+.variable:first-of-type{
+  margin-top: 5%;
+}
+.mainCode{
+  margin-left: 5%;
+  margin-top: 8%;
+}
+#ContactArrVert{
+  display: none;
+}
+.info{
+  margin: 1% 0 1% 3%;
+  width: 110%;
+}
+.ClosingCurly{
+  margin: 0% 5% 30% 140%;
 }

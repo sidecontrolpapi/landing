@@ -84,7 +84,6 @@
       }
       
       
- 
    
     @media (max-height:667px)
     {
@@ -200,4 +199,99 @@ margin-left: 10vw;}
     #Hello {
         font-size: 5rem;
     }
+}
+
+/*Footer*/
+@media (max-width:875px) {
+   
+.PersonalInfo{
+    padding: 2% 0 2% 4%;
+    display: flex;
+    flex-direction: column;
+}
+.PersonalInfo a,p{
+    padding-top: 2%;
+}
+.PersonalInfo p:first-of-type{
+    padding-top: 8%;
+}
+.signature{
+    padding-bottom: 5%;
+    padding-left: 4%;
+    font-size: 8px;
+}
+.Bye{
+    margin-top: 0%;
+    padding-left: 13%;
+    margin-bottom: 3%;
+}
+.Networks{
+    width: 40%;
+    margin: 4% 0;
+}
+.Networks a{
+    margin-left: 12%;
+}
+
+
+/*Projects*/
+#Projects {
+    margin-top: 15%;
+}
+.ImagesDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2VW;
+    padding-top: 5%;
+}
+.ProjectCard {
+    display: flex;
+    flex-direction: column;     
+    padding-bottom: 20%;
+}
+
+.InnerText {
+    width: 100%;
+    padding: 0;
+    margin-top: 8%;
+}
+.InnerText p{
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.buttons a{
+    text-align: center;
+    margin-top: 7%;
+    width: 83%;
+}
+.TextDiv {
+    width: 95%;
+    margin-left: 3%;
+}
+
+/*Contact*/
+.CenterContact{
+    display: block;
+}
+.Contact{
+    display: block;
+}
+.ClosingCurly{
+    margin: 12% 5% 15% -5.5%;
+}
+.ContactArr{
+    display: none;
+}
+#ContactArrVert{
+    display: block;
+    margin-left: 7%;
+    width: 10%;
+    margin-top: -9%;
+}
+.info{
+    width:95%;
+}
 }

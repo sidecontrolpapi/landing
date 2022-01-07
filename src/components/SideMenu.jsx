@@ -3,7 +3,7 @@ import { MenuContext} from "../context/MenuContext"
 import Links from "./Links"
 import linkedin from "../images/LinkedIn.svg"
 import github from "../images/Github.svg"
-import right from "../images/RigthArrow.svg"
+import right from "../images/RightArrow.svg"
 
 const SideMenu = ()=> {
 

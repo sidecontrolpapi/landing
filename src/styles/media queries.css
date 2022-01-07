@@ -1,13 +1,92 @@
+@media (width:1920px) {
+    #Hello,#Hello span {
+    font-size: 14rem;
+    margin-top: 0;
+    }
+    .Bye{
+    margin-top: -17%;
+    padding-left: 37%;
+    margin-bottom: 0%;
+    }
+    .signature{
+        font-size: 15px;
+    }
+    .PersonalInfo a,p{
+    font-size: 25px;
+    }
+    .Networks {
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+    margin-bottom: 4%;
+    }
+    .RightArr{
+    width: 8rem;
+    height: 7vh;
+    margin-top: -4%;
+    }
+    .linkNet{
+    margin-top: 20%;
+    width: 100%;
+    }
+    #Projects {
+        margin-top: 22%;
+      }
+}
+
+@media (min-width:2000px) {
+    #Hello,#Hello span {
+        
+        font-size: 17rem !important;
+        margin-top: 0;
+    }
+    .Bye{
+    margin-top: -13%;
+    padding-left: 45%;
+    margin-bottom: 3%;
+    }
+    .signature{
+        font-size: 15px;
+    }
+    .PersonalInfo a,p{
+    font-size: 25px;
+    }
+    .Networks {
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+    margin-bottom: 4%;
+    }
+    .RightArr{
+    width: 10rem;
+    height: 10vh;
+    margin-top: -4%;
+    }
+    .linkNet{
+    margin-top: 30%;
+    width: 100%;
+    }
+    #Projects {
+        margin-top: 17%;
+      }
+}
 @media (max-width:1600px) {
     #Hello, #Hello span{
-        font-size: 18rem;
+        font-size: 13.5rem;
+        margin-top: 2rem;
+    }
+}
+@media (min-width:1600px) {
+    #Hello, #Hello span{
+        font-size: 13.5rem;
+        margin-top: 2rem;
     }
 }
 
 @media (max-width:1440px) {
     #Hello,#Hello span {
         
-        font-size: 16rem;
+        font-size: 13rem;
     }
     #Hello {
         margin-left: 0;
@@ -21,14 +100,15 @@
         font-size: 0.94rem;
     }
 
-  
+    
     
 }
 
 @media (max-width:1280px) {
     #Hello,#Hello span {
-        
-        font-size: 14rem;
+        font-size: 10.5rem;
+        margin-top: 5%;
+        margin-bottom: 2%;
     }
              
     * {
@@ -54,7 +134,7 @@
             font-size: 0.8rem;
         }
     
-        }
+    }
     
 }
 
@@ -71,8 +151,7 @@
         grid-column: 2 /span 5;
     }
     #Hello, #Hello span{
-        font-size: 10rem;
-        
+        font-size: 8.7rem;
     }
     * {
         font-size: 1.1rem;
@@ -104,13 +183,26 @@
 
 
 }
+@media (width:1024px) {
+    #Me {
+        width: 100%;
+        height: 87%;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        z-index: 2;
+        max-height: 94vh;
+      }
+      #MidArrow {
+        bottom: 6vh;
 
-@media (max-height:800px) {
-    #Hello, #Hello span {
-        font-size: 13rem;
+      }
+    .linkNet{
+        margin-top: 0%;
+        width: 80%;
+        margin-left: 50%;
     }
-
-
+}
+@media (max-height:800px) {
 
 #Welcome {
     display: grid;
