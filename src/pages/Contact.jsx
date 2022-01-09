@@ -14,30 +14,23 @@ const Contact =()=>{
             <img id="ContactArrVert" src={mid} alt=""/>
 
             <div className="CenterContact">
-                <h1 className="red">Contact:</h1>
+                <h1 className="red">function Contact ()</h1>
                 <h1>&#123;</h1>
             </div>
             
             <div className="RightContact">
-                <p className="red">char* name, job;</p>
-                <div className="variable">
-                    <p className="blackFont">name =</p> 
-                    <b><p className="red">"Adrián Valdés Diaz"; </p></b>
-                </div>
-                <div className="variable">
-                    <p className="blackFont">job =</p> 
-                    <b><p className="red">"Full Stack Developer"; </p></b>
-                </div>
+             
+               
 
                 <div className="mainCode">
-                    <p className="blackFont">Evaluating (interest);</p><br/>
-                    <p className="blackFont">if (interest &#62; 5)&#123;</p>
+                  
+                    <p className="blackFont"> <span className="red">if</span> (you.interested(me))&#123;</p>
                     
                     <div className="info">
                         <br/>
-                        <a href="tel:+17868657264"><b><p className="red">call: +1 786 865-7264;</p></b></a>
+                        
 
-                        <a href="mailto: adrianvaldes1439@gmail.com"><b><p className="red">mail: adrianvaldes1439@gmail.com;</p></b></a>
+                        <a href="mailto: adrianvaldes1439@gmail.com"><b><p className="red"> mail(<u >&quot;adrianvaldes1439@gmail.com&quot;</u>)</p></b></a>
                         <br/>
                     </div>
                     

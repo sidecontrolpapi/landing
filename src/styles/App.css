@@ -350,7 +350,7 @@ width: initial;
 .Footer{
   background-color: black;
 }
-.Footer a,p{
+.Footer a, .Footer p{
   color: white;
 }
 .PersonalInfo{
@@ -358,7 +358,7 @@ width: initial;
   display: flex;
   flex-direction: column;
 }
-.PersonalInfo a,p{
+.PersonalInfo a,p, .PersonalInfo span{
   padding-bottom: 0.3%;
   font-size: 16px;
 }
@@ -392,9 +392,13 @@ width: initial;
 }
 
 /*Contact*/
-.Contact h1{
+.Contact h1, .Contact h1 span {
   font-size: 3rem;
 }
+.CenterContact h1:last-child {
+margin-left: 1vw;
+}
+
 .Contact{
   display: flex;
   margin-top: 4%;
