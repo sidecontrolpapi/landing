@@ -358,10 +358,10 @@ width: initial;
   display: flex;
   flex-direction: column;
 }
-.PersonalInfo a,p, .PersonalInfo span{
+/* .PersonalInfo a,p,span, u{
   padding-bottom: 0.3%;
   font-size: 16px;
-}
+} */
 .Bye{
   margin-top: -20%;
   padding-left: 37%;
@@ -426,7 +426,7 @@ margin-left: 1vw;
   margin-top: 5%;
 }
 .mainCode{
-  margin-left: 5%;
+  
   margin-top: 8%;
 }
 #ContactArrVert{
