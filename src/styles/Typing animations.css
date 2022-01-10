@@ -1,0 +1,31 @@
+.caret  {
+    background-color: red;
+    height: 100%;
+    animation: caret .75s step-end infinite;
+    position: absolute;
+    width: 0.2rem;
+    bottom: 2%;
+}
+#Hello {
+   /*  border-right: .2rem solid #ec0544; */
+    white-space: nowrap;
+    animation: typing 1.5s steps(10, end);
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+@keyframes caret {
+    from, to { background-color: transparent }
+    50% { background-color: #ec0544}
+}
+
+@keyframes typing{
+    from {
+        width: 0;
+    }
+    to {
+        width:100%
+    }
+}

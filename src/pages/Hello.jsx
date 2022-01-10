@@ -5,8 +5,10 @@ const Hello = ()=> {
     return (
         <section className="black" id="Welcome">
             <header>
+                
                 <h1 id="Hello">
                 <span  className="red">&#60;</span>Hello
+                <span class="caret"></span>
                 </h1>
             </header>
 
