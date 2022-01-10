@@ -1,31 +1,71 @@
-.caret  {
-    background-color: red;
-    height: 100%;
-    animation: caret .75s step-end infinite;
-    position: absolute;
-    width: 0.2rem;
-    bottom: 2%;
+#Hello {
+   
 }
 #Hello {
-   /*  border-right: .2rem solid #ec0544; */
+    border-right: .2rem solid #ec0544;
     white-space: nowrap;
-    animation: typing 1.5s steps(10, end);
+    animation: typing 1.5s steps(10, end),
+               caret .75s step-end infinite,
+               noCaret 0.1s 2s forwards; 
     overflow: hidden;
-    margin: 0 auto;
-    position: relative;
+    margin-left: auto;
+    display: inline-block;
+    margin-right: auto;
+
     
 }
 
-@keyframes caret {
-    from, to { background-color: transparent }
-    50% { background-color: #ec0544}
+#Path_2 {
+    transform: "translate(-18.944 -300.456)";
 }
+main {
+    opacity: 0;
+    animation: showContent .5s 2s forwards;
+}
+
+.container {
+    display: inline-block;
+}
+
+@keyframes caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ec0544}
+}
+
+/* .LongArrow {
+    animation: arrowShow 1s 2s forwards;
+}
+
+@keyframes arrowShow {
+    from {
+        height: 0;
+        width: 0;
+    }
+    to {
+        height: 123px;
+        width: 54px;
+    }
+} */
 
 @keyframes typing{
     from {
         width: 0;
     }
     to {
-        width:100%
+        width:100%;
+    }
+}
+
+@keyframes noCaret {
+    to {
+        border-right: none;
+    }
+}
+@keyframes showContent {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
