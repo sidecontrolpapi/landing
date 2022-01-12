@@ -16,7 +16,8 @@ const AboutMe = ()=> {
                 </p>
                 <p>In my senior year of high school, I gained admission to the prestigious Mathematics and Computer Science Department at the University of Havana. However, in early 2021, I emigrated to the United States before enrolling. Since then, I have been taking multiple online courses in Math and Programming to cope with my impossibility of going to school as a recent immigrant. Right now, I’m applying to colleges in the USA with the hope of finally continuing my education, through which I hope to become the best engineer and person I can be.
                 </p>
-                <p>Lately, I have been working as a lead developer in a team of freelancers. We produce fully custom web solutions for small businesses. My responsibilities include API Development, Database Design, and Deployment Operations in the back-end; API consuming, UX interactivity, and some CSS styling in the front-end; and general Project Management. My primary goal with this activity is to apply what I learn online and accumulate the necessary experience to land a Programming-related internship. Check out some of our latest projects below.&quot;
+                <p>Recently, I have been working as a lead developer in a team of freelancers, which produces fully custom web solutions for small businesses. My responsibilities include Project Management; API Development, Database Design, and Deployment Operations in the back-end; and API consuming, UX interactivity, and some CSS styling in the front-end. My main goal with this enterprise is to apply what I learn online and accumulate the necessary experience to land a Coding internship next Spring. Check out our latest projects below.
+
        
                 </p>
 
