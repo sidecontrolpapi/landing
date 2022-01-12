@@ -1,12 +1,10 @@
-#Hello {
-   
-}
+
 #Hello {
     border-right: .2rem solid #ec0544;
     white-space: nowrap;
-    animation: typing 1.5s steps(10, end),
+    animation: typing 1s steps(10, end),
                caret .75s step-end infinite,
-               noCaret 0.1s 2s forwards; 
+               noCaret 0.1s 1.2s forwards; 
     overflow: hidden;
     margin-left: auto;
     display: inline-block;
@@ -15,12 +13,22 @@
     
 }
 
+.typed {
+    border-right: .2rem solid #ec0544;
+    white-space: nowrap;
+    animation: typing 1s steps(10, end),
+               caret .75s step-end infinite,
+               noCaret 0.1s 1.5s forwards; 
+    overflow: hidden;
+    margin-right: auto;
+}
+
 #Path_2 {
     transform: "translate(-18.944 -300.456)";
 }
-main {
+.textShowing {
     opacity: 0;
-    animation: showContent .5s 2s forwards;
+    animation: showContent .5s 1.2s forwards;
 }
 
 .container {
@@ -32,20 +40,6 @@ main {
     50% { border-color: #ec0544}
 }
 
-/* .LongArrow {
-    animation: arrowShow 1s 2s forwards;
-}
-
-@keyframes arrowShow {
-    from {
-        height: 0;
-        width: 0;
-    }
-    to {
-        height: 123px;
-        width: 54px;
-    }
-} */
 
 @keyframes typing{
     from {

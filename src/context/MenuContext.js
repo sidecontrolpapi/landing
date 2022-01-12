@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useEffect, useLayoutEffect, useState } from "react";
 
 export const MenuContext = createContext()
 
@@ -14,7 +14,12 @@ const MenuContextProvider = (props)=> {
 
 
       setSelected(Math.round(window.scrollY/window.innerHeight))
-     console.log([window.scrollY/window.innerHeight])
+      console.log(selected)
+      switch(selected){
+        case 1:console.log("yes"); break
+        default:console.log("no")
+      }
+
   }
 
   useEffect(()=>{

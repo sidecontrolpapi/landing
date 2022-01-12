@@ -1,0 +1,12 @@
+
+.meShowing {
+left: 0;
+opacity: 1;
+}
+
+.beforeType {
+    width: 0;
+}
+.beforeShow {
+    opacity: 0;
+}

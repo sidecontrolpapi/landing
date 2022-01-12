@@ -10,7 +10,7 @@ import './styles/mobile.css'
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import './styles/Typing animations.css'
-
+import './styles/Scrolling Animations.css'
 function App() {
 
   

@@ -12,7 +12,7 @@ const Hello = ()=> {
                 </div>
             </header>
 
-            <main>
+            <main className='textShowing'>
                 <div className="flex-div">
                     <h2 className="red">
                     

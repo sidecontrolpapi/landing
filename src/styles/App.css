@@ -163,10 +163,15 @@
   position: relative;
 }
 
-#Me {
+.Me {
   width: 100%;
   height: 100%;
+  transition:  all 3s;
   padding-left: 4vw;
+  left: -80vh;
+  opacity: 0.1;
+  position: relative;
+  transition: all 1.5s;
   padding-right: 3vw;
   z-index: 2;
   max-height: 94vh;
@@ -174,7 +179,6 @@
 
  #AboutMe h1 {
    font-size: 3.3rem;
-   margin-top: 5vh;
  }
 
  #summary > *{
