@@ -1,9 +1,9 @@
 
 #Hello {
-  
+    border-right: .2rem solid #ec0544;
     white-space: nowrap;
     animation: typing 1.5s steps(10, end),
-               caret .75s step-end infinite,
+               caret .35s step-end infinite,
                noCaret 0.1s 1.8s forwards; 
     overflow: hidden;
     margin-left: auto;
@@ -16,7 +16,7 @@
     
     border-right: .2rem solid #ec0544;
     animation: typing 1.5s 0.1s steps(10, end) forwards,
-               caret .75s step-end infinite,
+               caret .35s step-end infinite,
                noCaret 0.1s 1s forwards; 
    
    
