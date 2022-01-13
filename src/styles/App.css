@@ -181,7 +181,7 @@
    font-size: 3.3rem;
  }
 
- #summary > *{
+ #summary > p{
   padding-right: 6vw;
   padding-bottom: 2vh;
  }
@@ -193,13 +193,13 @@
    justify-content: space-between;
  }
 
- #summary :last-child {
+ #summary > :last-child {
    position: relative;
    padding-top: 2vh;
    color: #1f1b1c;
    z-index: 1;
  }
- #summary :last-child::after {
+ #summary > :last-child::after {
    content: "";
    background-color: #fff;
   position: absolute;

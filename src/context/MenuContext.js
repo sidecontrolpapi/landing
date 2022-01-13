@@ -6,6 +6,7 @@ const MenuContextProvider = (props)=> {
 
 
     const [sideMenuActive, setSideMenuActive] = useState(false)
+    const [scrolled, setScrolled] = useState(0)
     const [selected, setSelected] = useState(0)
 
 
@@ -14,11 +15,7 @@ const MenuContextProvider = (props)=> {
 
 
       setSelected(Math.round(window.scrollY/window.innerHeight))
-      console.log(selected)
-      switch(selected){
-        case 1:console.log("yes"); break
-        default:console.log("no")
-      }
+      if (selected>scrolled) setScrolled(selected)
 
   }
 
@@ -40,7 +37,7 @@ const MenuContextProvider = (props)=> {
     }
 
     
-    return <MenuContext.Provider value={{sideMenuActive, setSideMenuActive, selected,handleSelect }}>
+    return <MenuContext.Provider value={{sideMenuActive, setSideMenuActive, selected,handleSelect, scrolled, setScrolled }}>
         {props.children}
     </MenuContext.Provider>
 }

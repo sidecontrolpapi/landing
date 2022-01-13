@@ -2,25 +2,26 @@
 #Hello {
     border-right: .2rem solid #ec0544;
     white-space: nowrap;
-    animation: typing 1s steps(10, end),
+    animation: typing 1.5s steps(10, end),
                caret .75s step-end infinite,
-               noCaret 0.1s 1.2s forwards; 
+               noCaret 0.1s 1.8s forwards; 
     overflow: hidden;
     margin-left: auto;
-    display: inline-block;
     margin-right: auto;
 
     
 }
 
 .typed {
-    border-right: .2rem solid #ec0544;
+    
+    width: 0;
     white-space: nowrap;
-    animation: typing 1s steps(10, end),
+    animation: typing 1.5s 0.1s steps(10, end) forwards,
                caret .75s step-end infinite,
-               noCaret 0.1s 1.5s forwards; 
-    overflow: hidden;
-    margin-right: auto;
+               noCaret 0.1s 1s forwards; 
+   
+   display: inline-block;
+    margin-right: auto; 
 }
 
 #Path_2 {
@@ -28,7 +29,7 @@
 }
 .textShowing {
     opacity: 0;
-    animation: showContent .5s 1.2s forwards;
+    animation: showContent .5s 2s forwards;
 }
 
 .container {
@@ -62,4 +63,9 @@
     to {
         opacity: 1;
     }
+}
+
+.hidden {
+    width: 0;
+    overflow: hidden;
 }
