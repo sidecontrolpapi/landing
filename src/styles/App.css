@@ -396,8 +396,8 @@ width: initial;
 }
 
 /*Contact*/
-.Contact h1, .Contact h1 span {
-  font-size: 3rem;
+.Contact h1{
+  font-size: 2.8rem;
 }
 .CenterContact h1:last-child {
 margin-left: 1vw;
