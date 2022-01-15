@@ -13,7 +13,7 @@ const AboutMe = ()=> {
         <section id="AboutMe">
 
 
-            <img className={`Me ${selected===1?"meShowing":""}`} src={me} alt="" />
+            <img id="Me" className={`Me ${selected===1?"meShowing":""}`} src={me} alt="" />
            
 
             <div id="summary">
