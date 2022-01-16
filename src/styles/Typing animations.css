@@ -17,11 +17,18 @@
     border-right: .2rem solid #ec0544;
     animation: typing 1.5s 0.1s steps(10, end) forwards,
                caret .35s step-end infinite,
-               noCaret 0.1s 1s forwards; 
+               noCaret 0.1s 1.8s forwards; 
    
    
 }
-
+.beforeType {
+    width: 0;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: auto; 
+    width: 0;
+    white-space: nowrap;
+}
 #Path_2 {
     transform: "translate(-18.944 -300.456)";
 }
@@ -63,11 +70,3 @@
     }
 }
 
-.hidden {
-    width: 0;
-    overflow: hidden;
-    display: inline-block;
-    margin-right: auto; 
-    width: 0;
-    white-space: nowrap;
-}

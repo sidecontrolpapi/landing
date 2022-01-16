@@ -14,7 +14,7 @@ const Contact =()=>{
             <img id="ContactArrVert" src={mid} alt=""/>
 
             <div className="CenterContact">
-                <h1 className="red">function Contact ()</h1>
+                <h1 className="red">Contact: </h1>
                 <h1>&#123;</h1>
             </div>
             

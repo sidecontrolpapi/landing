@@ -13,13 +13,13 @@ const AboutMe = ()=> {
         <section id="AboutMe">
 
 
-            <img id="Me" className={`Me ${selected===1?"meShowing":""}`} src={me} alt="" />
+            <img id="Me" className={`Me ${selected===1?"showLeft":""}`} src={me} alt="" />
            
 
             <div id="summary">
                 <div className="container">
                 <div className="container">
-                <h1 id="AboutMeh1" className={`red hidden ${selected>=1?"typed":""}`}>&#47;&#47;About Me</h1>
+                <h1 id="AboutMeh1" className={`red beforeType ${selected>=1?"typed":""}`}>&#47;&#47;About Me</h1>
                 </div>
                 </div>
                 <p className={`${selected>=1?"textShowing":"beforeShow"}`}>

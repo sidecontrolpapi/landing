@@ -265,6 +265,7 @@
   grid-template-areas: "images text";
   color: #fff;
   background-color: #1f1b1c;
+  overflow: hidden;
   padding-bottom: 10%;
   padding-top: 5%;
 }
