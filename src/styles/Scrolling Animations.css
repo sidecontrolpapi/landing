@@ -4,14 +4,14 @@
     position: relative;
     opacity: 0.1;
     left: -80vh;
-    transition: all 1.5s 1.5s;
+    transition: all 1.5s 2s;
     }
     
     .hiddenRight {
         position: relative;
         opacity: 0.1;
         right: -80vh;
-        transition: all 1.5s 1.5s;
+        transition: all 1.5s 2s;
         }
     
 .beforeShow {
