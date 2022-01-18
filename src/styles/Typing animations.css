@@ -1,5 +1,5 @@
 
-#Hello {
+/* #Hello {
     border-right: .2rem solid #ec0544;
     white-space: nowrap;
     animation: typing 1.5s steps(10, end),
@@ -10,10 +10,15 @@
     margin-right: auto;
 
     
-}
+} */
 
 .typed {
-    
+    width: 0;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: auto; 
+    white-space: nowrap;
+
     border-right: .2rem solid #ec0544;
     animation: typing 1.5s 0.1s steps(10, end) forwards,
                caret .35s step-end infinite,
@@ -26,7 +31,6 @@
     overflow: hidden;
     display: inline-block;
     margin-right: auto; 
-    width: 0;
     white-space: nowrap;
 }
 #Path_2 {

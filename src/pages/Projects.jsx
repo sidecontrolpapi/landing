@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react"
+import { useContext } from "react"
 import ProjectCard from "../components/ProjectCard"
 import { MenuContext } from "../context/MenuContext"
 import projects from "../temporalProjectsJSON"

@@ -6,7 +6,7 @@ const Hello = ()=> {
         <section className="black" id="Welcome">
             <header>
                 <div className="container">
-                <h1 id="Hello">
+                <h1 className='typed' id="Hello">
                 <span  className="red">&#60;</span>Hello
                 </h1>
                 </div>

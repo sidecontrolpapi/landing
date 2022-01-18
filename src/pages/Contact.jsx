@@ -1,6 +1,21 @@
+import { useContext, useEffect, useState } from "react";
+import { MenuContext } from "../context/MenuContext";
 import mid from "../images/MidArrow.svg"
 
 const Contact =()=>{
+
+    const {selected} = useContext(MenuContext)
+    const [scrolled, setScrolled] = useState(false)
+    
+    useEffect(()=>{
+        const width = document.body.clientWidth
+        if (width>1920 && selected>=5) setScrolled(true)
+        else if (width>=1024 && selected>=4) setScrolled(true)
+        else if (selected>=6) setScrolled(true)
+        else if (selected<3) setScrolled(false) 
+        console.log(selected, document.body.clientWidth)
+    },[selected])
+
     return(
         <div className="Contact" id="Contact">
 
@@ -14,11 +29,13 @@ const Contact =()=>{
             <img id="ContactArrVert" src={mid} alt=""/>
 
             <div className="CenterContact">
-                <h1 className="red">Contact: </h1>
-                <h1>&#123;</h1>
+                <div className="container">
+                <h1 className={`red beforeType ${scrolled?"typed":""}`}>Contact: </h1>
+                </div>
+                <h1 className={`${scrolled?"textShowing":"beforeShow"}`}>&#123;</h1>
             </div>
             
-            <div className="RightContact">
+            <div  className={`RightContact ${scrolled?"textShowing":"beforeShow"}`}>
              
                
 
