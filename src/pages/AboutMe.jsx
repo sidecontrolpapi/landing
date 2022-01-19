@@ -13,21 +13,21 @@ const AboutMe = ()=> {
         <section id="AboutMe">
 
 
-            <img id="Me" className={`Me ${selected===1?"showLeft":""}`} src={me} alt="" />
+            <img id="Me" className={`Me ${selected>=0.4?"showLeft":""}`} src={me} alt="" />
            
 
             <div id="summary">
                 <div className="container">
                 <div className="container">
-                <h1 id="AboutMeh1" className={`red beforeType ${selected>=1?"typed":""}`}>&#47;&#47;About Me</h1>
+                <h1 id="AboutMeh1" className={`red beforeType ${selected>=0.4?"typed":""}`}>&#47;&#47;About Me</h1>
                 </div>
                 </div>
-                <p className={`${selected>=1?"textShowing":"beforeShow"}`}>
+                <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>
                 &quot;I am a proud member of the 46th graduating class of the Vocational Pre-University Institute of Exact Sciences “Vladimir Ilich Lenin” in Havana, Cuba. There I received a high-quality education and met the most intellectually-keen and kind-hearted individuals; With whom I forged life-long bonds of friendship and explored my academic interests, eventually finding my passion for Technology and Programming in particular. 
                 </p>
-                <p className={`${selected>=1?"textShowing":"beforeShow"}`}>In my senior year of high school, I gained admission to the prestigious Mathematics and Computer Science Department at the University of Havana. However, in early 2021, I emigrated to the United States before enrolling. Since then, I have been taking multiple online courses in Math and Programming to cope with my impossibility of going to school as a recent immigrant. Right now, I’m applying to colleges in the USA with the hope of finally continuing my education, through which I hope to become the best engineer and person I can be.
+                <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>In my senior year of high school, I gained admission to the prestigious Mathematics and Computer Science Department at the University of Havana. However, in early 2021, I emigrated to the United States before enrolling. Since then, I have been taking multiple online courses in Math and Programming to cope with my impossibility of going to school as a recent immigrant. Right now, I’m applying to colleges in the USA with the hope of finally continuing my education, through which I hope to become the best engineer and person I can be.
                 </p>
-                <p className={`${selected>=1?"textShowing":"beforeShow"}`}>Recently, I have been working as a lead developer in a team of freelancers, which produces fully custom web solutions for small businesses. My responsibilities include Project Management; API Development, Database Design, and Deployment Operations in the back-end; and API consuming, UX interactivity, and some CSS styling in the front-end. My main goal with this enterprise is to apply what I learn online and accumulate the necessary experience to land a Coding internship next Spring. Check out our latest projects below.
+                <p className={`${selected>=0.5?"textShowing":"beforeShow"}`}>Recently, I have been working as a lead developer in a team of freelancers, which produces fully custom web solutions for small businesses. My responsibilities include Project Management; API Development, Database Design, and Deployment Operations in the back-end; and API consuming, UX interactivity, and some CSS styling in the front-end. My main goal with this enterprise is to apply what I learn online and accumulate the necessary experience to land a Coding internship next Spring. Check out our latest projects below.
 
        
                 </p>

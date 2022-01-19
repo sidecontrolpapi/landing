@@ -14,7 +14,7 @@ const MenuContextProvider = (props)=> {
   const listenToScroll = ()=> {
 
 
-      setSelected(Math.round(window.scrollY/window.innerHeight))
+      setSelected(Math.round(window.scrollY/window.innerHeight*10)/10)
       if (selected>scrolled) setScrolled(selected)
       
   }
