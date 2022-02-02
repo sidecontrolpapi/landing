@@ -28,7 +28,7 @@ const AboutMe = ()=> {
                 <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>In my senior year of high school, I gained admission to the prestigious Mathematics and Computer Science Department at the University of Havana. However, in early 2021, I emigrated to the United States before enrolling. Since then, I have been taking multiple online courses in Math and Programming to cope with my impossibility of going to school as a recent immigrant. Right now, I’m applying to colleges in the USA with the hope of finally continuing my education, through which I hope to become the best engineer and person I can be.
                 </p>
 
-                <p className={`${selected>=1?"textShowing":"beforeShow"}`}>Recently, I have been working as a freelance developer, building fully custom web solutions for small businesses.  My main goal with this enterprise is to apply what I learn online and accumulate the necessary experience to land a Coding internship. Check out my latest projects below.
+                <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>Recently, I have been working as a freelance developer, building fully custom web solutions for small businesses.  My main goal with this enterprise is to apply what I learn online and accumulate the necessary experience to land a Coding internship. Check out my latest projects below.
 
        
                 </p>
