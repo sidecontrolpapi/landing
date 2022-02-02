@@ -9,8 +9,8 @@ const Contact =()=>{
     
     useEffect(()=>{
         const width = document.body.clientWidth
-        if (width>1920 && selected>=5) setScrolled(true)
-        else if (width>=1024 && selected>=4) setScrolled(true)
+        if (width>1920) {if (selected>=4.8) setScrolled(true) }
+        else if (width>=1024) {if (selected>=4){ setScrolled(true)}}
         else if (selected>=5.2 && width>=375) setScrolled(true)
         else if (selected>=6) setScrolled(true)
         else if (selected<3) setScrolled(false) 
