@@ -8,7 +8,7 @@ const {selected} = useContext(MenuContext)
     return (
         <div className="ProjectCard">
 
-            <div className={`ImagesDiv ${project.id%2!==0?"hiddenLeft":"hiddenRight"} ${selected>=project.id+0.8?project.id%2!==0?"showLeft":"showRight":""}`}>
+            <div className={`ImagesDiv ${project.id%2!==0?"left":"right"} hidden${project.id} ${selected>=project.id+0.8?project.id%2!==0?"showLeft":"showRight":""}`}>
                 <a target="_blank" rel="noreferrer" href={project.link}>
                 <img className="Portrait" src={project.portrait} alt="" />
                 </a>
@@ -17,7 +17,7 @@ const {selected} = useContext(MenuContext)
                 </a>
             </div>  
 
-            <div  className={`TextDiv ${project.id%2===0?"hiddenLeft":"hiddenRight"} ${selected>=project.id+0.8?project.id%2===0?"showLeft":"showRight":""}`}>
+            <div  className={`TextDiv ${project.id%2===0?"left":"right"} hidden${project.id} ${selected>=project.id+0.8?project.id%2===0?"showLeft":"showRight":""}`}>
                 <h2 className="red">&#47;&#47;{project.title}</h2>
                 <div className="InnerText">
                     <p>&quot;{project.description}&quot;</p>

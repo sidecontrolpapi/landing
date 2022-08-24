@@ -19,7 +19,7 @@ const Footer = () => {
                     </g>
                 </svg>
                 
-                <a href="https://www.linkedin.com/in/adri%C3%A1n-vald%C3%A9s-d%C3%ADaz-2a10491b7/">
+                <a href="https://www.linkedin.com/in/adrian-valdes-diaz/">
                     <svg className="linkNet" xmlns="http://www.w3.org/2000/svg" width="38" height="37.92" viewBox="0 0 38 37.92">
                         <g id="Capa_2" data-name="Capa 2" transform="translate(0 -0.05)">
                         <g id="Capa_1" data-name="Capa 1" transform="translate(0 0.05)">
@@ -44,7 +44,7 @@ const Footer = () => {
                 </h1>
             </div>
         
-            <p className="signature">Adrián Valdés Diaz 2021  &copy;</p>
+            <p className="signature">Adrián Valdés Diaz 2022  &copy;</p>
             
         </div>
     )

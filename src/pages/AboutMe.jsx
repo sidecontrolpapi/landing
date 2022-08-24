@@ -23,12 +23,13 @@ const AboutMe = ()=> {
                 </div>
                 </div>
                 <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>
-                &quot;I am a proud member of the 46th graduating class of the Vocational Pre-University Institute of Exact Sciences “Vladimir Ilich Lenin” in Havana, Cuba. There I received a high-quality education and met the most intellectually-keen and kind-hearted individuals; With whom I forged life-long bonds of friendship and explored my academic interests, eventually finding my passion for Technology and Programming in particular. 
+                    &quot;I moved to Miami in early 2021 right after graduating from high school in Havana, Cuba. Since I got to the United States, my main priority became applying to college to continue my education. At the same time, I started working as a freelance web developer and taking free online coding courses to try to advance my software engineering career by gaining some real work experience and certifications while I waited to go back to school.
                 </p>
-                <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>In my senior year of high school, I gained admission to the prestigious Mathematics and Computer Science Department at the University of Havana. However, in early 2021, I emigrated to the United States before enrolling. Since then, I have been taking multiple online courses in Math and Programming to cope with my impossibility of going to school as a recent immigrant. Right now, I’m applying to colleges in the USA with the hope of finally continuing my education, through which I hope to become the best engineer and person I can be.
+                <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>
+                    Eventually, after having succesfully developed multiple web apps for small businesses in the Miami area, I landed a full-time position as a Front-end developer at Hogarth Worldwide. Some time after that,  I gained admission to a couple of prestigious institutions, including Rice University, where I ultimately decided to attend. 
                 </p>
-
-                <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>Recently, I have been working as a freelance developer, building fully custom web solutions for small businesses. My tech stack ussually consists of a Django Rest Framework API with PostgreSQL deployed on AWS and a React client with Nextjs hosted on Vercel. Check out my latest projects below.
+                <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>
+                     My tech stack ussually consists of a Django Rest Framework API deployed on AWS and a Nextjs client hosted on Vercel. Check out my two favorite projects below.
 
        
                 </p>

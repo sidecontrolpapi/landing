@@ -1,28 +1,33 @@
 
 
-.hiddenLeft {
+.left {
     position: relative;
     opacity: 0.1;
     left: -80vh;
     transition: all 1.5s 1.7s;
-    }
+}
     
-    .hiddenRight {
+.right {
         position: relative;
         opacity: 0.1;
         right: -80vh;
         transition: all 1.5s 1.7s;
-        }
+}
+
+.hidden2 {
+        transition: all 1.5s;
+}
+
+
+
     
 .beforeShow {
       opacity: 0;
-        }
+}
 .showRight {
-       
         opacity: 1;
         right: 0;
-       
-        }
+}
 .showLeft {
         opacity: 1;
         left: 0;

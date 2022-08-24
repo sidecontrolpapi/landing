@@ -48,7 +48,7 @@ const Contact =()=>{
                         <br/>
                         
 
-                        <a href="mailto: adrianvaldes1439@gmail.com"><b><p className="red"> mail(<u >&quot;adrianvaldes1439@gmail.com&quot;</u>)</p></b></a>
+                        <a href="mailto: adrianvaldes1439@gmail.com"><b><p className="red"> mail(<u >&quot;av76.rice.edu&quot;</u>)</p></b></a>
                         <br/>
                     </div>
                     
