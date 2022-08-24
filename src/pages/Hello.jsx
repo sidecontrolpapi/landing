@@ -23,7 +23,7 @@ const Hello = ()=> {
                     <p><span className="red">
                     location = </span>&quot;Houston, Texas&quot;</p>
                 
-                    <p><span className="red">description =</span> &quot;I am CS freshman at Rice University who loves all things Software Engineering.&quot; <span className="red">/&#62;</span></p>
+                    <p><span className="red">description =</span> &quot;I am freshman majoring in CS at Rice University who has a true passion for building software.&quot; <span className="red">/&#62;</span></p>
                     <img className="ShortArrow" src={short} alt=""/>
                     <img className="LongArrow" src={long} alt="arrow" />
                 </div>

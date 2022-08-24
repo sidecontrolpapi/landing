@@ -23,15 +23,13 @@ const AboutMe = ()=> {
                 </div>
                 </div>
                 <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>
-                    &quot;I moved to Miami in early 2021 right after graduating from high school in Havana, Cuba. Since I got to the United States, my main priority became applying to college to continue my education. At the same time, I started working as a freelance web developer and taking free online coding courses to try to advance my software engineering career by gaining some real work experience and certifications while I waited to go back to school.
+                    &quot;I moved to Miami in early 2021, right after graduating from high school in Havana, Cuba. Since I got to the United States, my main priorities became advancing my Software Engineering career and applying to college. With this in mind, I spent most of my time working as a freelance web developer, participating in hackathons, taking online coding courses, studying for the SAT, and writing application essays.
                 </p>
                 <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>
-                    Eventually, after having succesfully developed multiple web apps for small businesses in the Miami area, I landed a full-time position as a Front-end developer at Hogarth Worldwide. Some time after that,  I gained admission to a couple of prestigious institutions, including Rice University, where I ultimately decided to attend. 
+                    Eventually, after successfully developing multiple web apps for small businesses based in Miami and Havana, I landed a full-time position as a developer at Hogarth Worldwide (where I worked from March to August). Also, during that time, I gained admission to a couple of prestigious institutions, including Rice University, where I ultimately decided to attend as part of the class of 2026.
                 </p>
                 <p className={`${selected>=0.4?"textShowing":"beforeShow"}`}>
-                     My tech stack ussually consists of a Django Rest Framework API deployed on AWS and a Nextjs client hosted on Vercel. Check out my two favorite projects below.
-
-       
+                     My tech stack usually consists of a Django Rest Framework API deployed on AWS and a Nextjs client hosted on Vercel. Check out my two favorite projects below.&quot;
                 </p>
 
 
