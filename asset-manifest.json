@@ -1,33 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.379791c9.chunk.css",
-    "main.js": "/static/js/main.8efb0549.chunk.js",
-    "main.js.map": "/static/js/main.8efb0549.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.14d703ec.js",
-    "runtime-main.js.map": "/static/js/runtime-main.14d703ec.js.map",
-    "static/js/2.906f6886.chunk.js": "/static/js/2.906f6886.chunk.js",
-    "static/js/2.906f6886.chunk.js.map": "/static/js/2.906f6886.chunk.js.map",
-    "static/js/3.0d82dfb0.chunk.js": "/static/js/3.0d82dfb0.chunk.js",
-    "static/js/3.0d82dfb0.chunk.js.map": "/static/js/3.0d82dfb0.chunk.js.map",
+    "main.css": "/static/css/main.f5361e36.css",
+    "main.js": "/static/js/main.c9a9136f.js",
+    "static/js/787.182741e2.chunk.js": "/static/js/787.182741e2.chunk.js",
+    "static/media/encanto (1).png": "/static/media/encanto (1).c4bcadb2d2f4687bbb1c.png",
+    "static/media/enfasis (1).png": "/static/media/enfasis (1).fc57161d7f1f9fdda450.png",
+    "static/media/encanto (2).png": "/static/media/encanto (2).acc8a36b2406d97b523b.png",
+    "static/media/enfasis (2).png": "/static/media/enfasis (2).79da421b6007131c2f5d.png",
+    "static/media/me.webp": "/static/media/me.ee68a24a9421e727a13b.webp",
     "index.html": "/index.html",
-    "static/css/main.379791c9.chunk.css.map": "/static/css/main.379791c9.chunk.css.map",
-    "static/js/2.906f6886.chunk.js.LICENSE.txt": "/static/js/2.906f6886.chunk.js.LICENSE.txt",
-    "static/media/Github.54b068c7.svg": "/static/media/Github.54b068c7.svg",
-    "static/media/LinkedIn.bef81bb7.svg": "/static/media/LinkedIn.bef81bb7.svg",
-    "static/media/LongArrow.65bf7837.svg": "/static/media/LongArrow.65bf7837.svg",
-    "static/media/MidArrow.b5d76927.svg": "/static/media/MidArrow.b5d76927.svg",
-    "static/media/RightArrow.efb0aef0.svg": "/static/media/RightArrow.efb0aef0.svg",
-    "static/media/ShortArrow.249e0542.svg": "/static/media/ShortArrow.249e0542.svg",
-    "static/media/encanto (1).c4bcadb2.png": "/static/media/encanto (1).c4bcadb2.png",
-    "static/media/encanto (2).acc8a36b.png": "/static/media/encanto (2).acc8a36b.png",
-    "static/media/enfasis (1).fc57161d.png": "/static/media/enfasis (1).fc57161d.png",
-    "static/media/enfasis (2).79da421b.png": "/static/media/enfasis (2).79da421b.png",
-    "static/media/me.ee68a24a.webp": "/static/media/me.ee68a24a.webp"
+    "static/media/Github.svg": "/static/media/Github.54b068c7e7c33c95163a488e6d0b9316.svg",
+    "static/media/LinkedIn.svg": "/static/media/LinkedIn.bef81bb79e51ff9718afefcda97b4b3a.svg",
+    "static/media/RightArrow.svg": "/static/media/RightArrow.efb0aef02694fbafb0b3b9b45e7db868.svg",
+    "static/media/MidArrow.svg": "/static/media/MidArrow.b5d76927d6d314e2702de464fb0343df.svg",
+    "static/media/LongArrow.svg": "/static/media/LongArrow.65bf783798b6023890bc6742d5b1666a.svg",
+    "static/media/ShortArrow.svg": "/static/media/ShortArrow.249e0542eba9bbe89c82275ae998eb8f.svg",
+    "main.f5361e36.css.map": "/static/css/main.f5361e36.css.map",
+    "main.c9a9136f.js.map": "/static/js/main.c9a9136f.js.map",
+    "787.182741e2.chunk.js.map": "/static/js/787.182741e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.14d703ec.js",
-    "static/js/2.906f6886.chunk.js",
-    "static/css/main.379791c9.chunk.css",
-    "static/js/main.8efb0549.chunk.js"
+    "static/css/main.f5361e36.css",
+    "static/js/main.c9a9136f.js"
   ]
 }
