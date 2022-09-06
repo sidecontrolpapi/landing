@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5361e36.css",
-    "main.js": "/static/js/main.4c4899ad.js",
+    "main.css": "/static/css/main.a2f060ee.css",
+    "main.js": "/static/js/main.b4197b08.js",
     "static/js/787.182741e2.chunk.js": "/static/js/787.182741e2.chunk.js",
     "static/media/encanto (1).png": "/static/media/encanto (1).c4bcadb2d2f4687bbb1c.png",
     "static/media/enfasis (1).png": "/static/media/enfasis (1).fc57161d7f1f9fdda450.png",
@@ -15,12 +15,12 @@
     "static/media/MidArrow.svg": "/static/media/MidArrow.b5d76927d6d314e2702de464fb0343df.svg",
     "static/media/LongArrow.svg": "/static/media/LongArrow.65bf783798b6023890bc6742d5b1666a.svg",
     "static/media/ShortArrow.svg": "/static/media/ShortArrow.249e0542eba9bbe89c82275ae998eb8f.svg",
-    "main.f5361e36.css.map": "/static/css/main.f5361e36.css.map",
-    "main.4c4899ad.js.map": "/static/js/main.4c4899ad.js.map",
+    "main.a2f060ee.css.map": "/static/css/main.a2f060ee.css.map",
+    "main.b4197b08.js.map": "/static/js/main.b4197b08.js.map",
     "787.182741e2.chunk.js.map": "/static/js/787.182741e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5361e36.css",
-    "static/js/main.4c4899ad.js"
+    "static/css/main.a2f060ee.css",
+    "static/js/main.b4197b08.js"
   ]
 }
