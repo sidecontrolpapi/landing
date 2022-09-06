@@ -12,7 +12,7 @@
 
 @media (max-width:650px) {
 
-    nav li:nth-child(3),nav li:nth-child(4),nav li:nth-child(5) {
+    nav li:nth-child(3),nav li:nth-child(4),nav li:nth-child(5), nav li:nth-child(6) {
         display: none;
     }
 
