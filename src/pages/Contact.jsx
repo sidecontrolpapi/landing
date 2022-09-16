@@ -10,9 +10,8 @@ const Contact =()=>{
     useEffect(()=>{
         const width = document.body.clientWidth
         if (width>1920) {if (selected>=4.8) setScrolled(true) }
-        else if (width>=1024) {if (selected>=4){ setScrolled(true)}}
-        else if (selected>=5.2 && width>=375) setScrolled(true)
-        else if (selected>=6) setScrolled(true)
+        else if (width>=1024) {if (selected>3.5){ setScrolled(true)}}
+        else if (selected>=4.7) setScrolled(true)
         else if (selected<3) setScrolled(false) 
         console.log(selected, document.body.clientWidth)
     },[selected])
@@ -37,29 +36,19 @@ const Contact =()=>{
             </div>
             
             <div  className={`RightContact ${scrolled?"textShowing":"beforeShow"}`}>
-             
-               
-
-                <div className="mainCode">
-                  
-                    <p className="blackFont"> <span className="red">if</span> (you.interested(me))&#123;</p>
-                    
+                <div className="mainCode">         
+                    <p className="blackFont"> <span className="red">if</span> (you.interested(me))&#123;</p>   
                     <div className="info">
                         <br/>
-                        
-
                         <a href="mailto: adrianvaldes1439@gmail.com"><b><p className="red"> mail(<u >&quot;av76.rice.edu&quot;</u>)</p></b></a>
                         <br/>
                     </div>
-                    
                     <p className="blackFont">&#125;</p>
                 </div>
-
                 <div className="ClosingCurly">
                     <h1>&#125;</h1>
                 </div>
             </div>
-
         </div>
     )
 }
