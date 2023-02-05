@@ -40,7 +40,7 @@ const Contact =()=>{
                     <p className="blackFont"> <span className="red">if</span> (you.interested(me))&#123;</p>   
                     <div className="info">
                         <br/>
-                        <a href="mailto: adrianvaldes1439@gmail.com"><b><p className="red"> mail(<u >&quot;av76.rice.edu&quot;</u>)</p></b></a>
+                        <a href="mailto:av76@rice.edu"><b><p className="red"> mail(<u >&quot;av76@rice.edu&quot;</u>)</p></b></a>
                         <br/>
                     </div>
                     <p className="blackFont">&#125;</p>
