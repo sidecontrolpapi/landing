@@ -1,37 +1,38 @@
-import long from '../images/LongArrow.svg'
-import short from '../images/ShortArrow.svg'
+import long from "../images/LongArrow.svg";
+import short from "../images/ShortArrow.svg";
 
-const Hello = ()=> {
-    return (
-        <section className="black" id="Welcome">
-            <header>
-                <div className="container">
-                <h1 className='typed' id="Hello">
-                <span  className="red">&#60;</span>Hello
-                </h1>
-                </div>
-            </header>
+const Hello = () => {
+  return (
+    <section className="black" id="Welcome">
+      <header>
+        <div className="container">
+          <h1 className="typed" id="Hello">
+            <span className="red">&#60;</span>Hello
+          </h1>
+        </div>
+      </header>
 
-            <main className='textShowing'>
-                <div className="flex-div">
-                    <h2 className="red">
-                    
-                        &#60;Computer Science Student
-                        <br />
-                    
-                    </h2>
-                    <p><span className="red">
-                    location = </span>&quot;Houston, Texas&quot;</p>
-                
-                    <p><span className="red">description =</span> &quot;I am freshman majoring in CS at Rice University who has a true passion for building software.&quot; <span className="red">/&#62;</span></p>
-                    <img className="ShortArrow" src={short} alt=""/>
-                    <img className="LongArrow" src={long} alt="arrow" />
-                </div>
-                
-            </main>
+      <main className="textShowing">
+        <div className="flex-div">
+          <h2 className="red">
+            &#60;Computer Science Student
+            <br />
+          </h2>
+          <p>
+            <span className="red">location = </span>&quot;Houston, Texas&quot;
+          </p>
 
-        </section>
-    )
-}
+          <p>
+            <span className="red">description =</span> &quot;I am sophomore
+            majoring in CS at Rice University who has a true passion for
+            building software.&quot; <span className="red">/&#62;</span>
+          </p>
+          <img className="ShortArrow" src={short} alt="" />
+          <img className="LongArrow" src={long} alt="arrow" />
+        </div>
+      </main>
+    </section>
+  );
+};
 
-export default Hello
+export default Hello;
